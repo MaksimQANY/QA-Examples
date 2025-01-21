@@ -1,0 +1,15 @@
+Test Case ID: TC001
+Title: Verify user login functionality
+Steps:
+1. Open the browser and navigate to "https://example.com/login".
+2. Enter a valid username and password.
+3. Click the "Login" button.
+Expected Result: User is successfully logged into their account.
+
+Test Case ID: TC002
+Title: Verify error message for invalid login
+Steps:
+1. Open the browser and navigate to "https://example.com/login".
+2. Enter an invalid username or password.
+3. Click the "Login" button.
+Expected Result: An error message is displayed: "Invalid credentials."
