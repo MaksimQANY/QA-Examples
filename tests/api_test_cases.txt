@@ -1,0 +1,22 @@
+Test Case ID: TC_API_001
+Title: Verify successful response for fetching a post
+Steps:
+1. Send a GET request to "https://jsonplaceholder.typicode.com/posts/1".
+2. Verify the status code is 200.
+3. Check that the response contains the correct post ID.
+Expected Result: Status code is 200, and response contains "id": 1.
+
+Test Case ID: TC_API_002
+Title: Verify response for an invalid post ID
+Steps:
+1. Send a GET request to "https://jsonplaceholder.typicode.com/posts/9999".
+2. Verify the status code is 404.
+3. Check that the response body is empty or contains an error message.
+Expected Result: Status code is 404, and response body indicates "Not Found".
+
+Test Case ID: TC_API_003
+Title: Verify response time for fetching a post
+Steps:
+1. Send a GET request to "https://jsonplaceholder.typicode.com/posts/1".
+2. Measure the response time.
+Expected Result: Response time is less than 500ms.
